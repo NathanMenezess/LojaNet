@@ -182,6 +182,10 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LojaNet.BLL\LojaNet.BLL.csproj">
+      <Project>{20e9bb88-d2bf-49bd-824e-0c488959deed}</Project>
+      <Name>LojaNet.BLL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LojaNet.Models\LojaNet.Models.csproj">
       <Project>{7376d56e-06dd-4691-baeb-4648196dbcb5}</Project>
       <Name>LojaNet.Models</Name>
