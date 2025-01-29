@@ -1,0 +1,11 @@
+C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.DAL\bin\Debug\netstandard1.4\LojaNet.DAL.deps.json
+C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.DAL\bin\Debug\netstandard1.4\LojaNet.DAL.dll
+C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.DAL\bin\Debug\netstandard1.4\LojaNet.DAL.pdb
+C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.DAL\bin\Debug\netstandard1.4\LojaNet.Models.dll
+C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.DAL\bin\Debug\netstandard1.4\LojaNet.Models.pdb
+C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.DAL\obj\Debug\netstandard1.4\LojaNet.DAL.csprojAssemblyReference.cache
+C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.DAL\obj\Debug\netstandard1.4\LojaNet.DAL.csproj.CoreCompileInputs.cache
+C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.DAL\obj\Debug\netstandard1.4\LojaNet.DAL.AssemblyInfo.cs
+C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.DAL\obj\Debug\netstandard1.4\LojaNet.DAL.csproj.CopyComplete
+C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.DAL\obj\Debug\netstandard1.4\LojaNet.DAL.dll
+C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.DAL\obj\Debug\netstandard1.4\LojaNet.DAL.pdb

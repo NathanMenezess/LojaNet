@@ -9,6 +9,10 @@ namespace LojaNet.BLL
 {
     public class ClienteBLL : IClienteDados
     {
+        //Busineess Logic Layer
+        //serve para ver se ele e valido
+        //tipo: se o campo nome ou email estao preenchidos
+
         public void Alterar(Cliente cliente)
         {
             throw new NotImplementedException();
