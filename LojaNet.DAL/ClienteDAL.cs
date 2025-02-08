@@ -38,7 +38,15 @@ namespace LojaNet.DAL
 
         public Cliente ObterPorId(string id)
         {
-            throw new NotImplementedException();
+            Cliente cliente = null;
+            using (var reader = DbHelper.ExecuteReader("ClienteObterPorId", "@Id", id))
+            {
+                if(reader.Read())
+                {
+                    cliente = ObterClienteReader(reader);
+                }
+            }
+            return cliente;
         }
 
         public List<Cliente> ObterTodos()
@@ -49,17 +57,23 @@ namespace LojaNet.DAL
             {
                 while (reader.Read())
                 {
-                    var cliente = new Cliente();
-                    cliente.Id = reader["Id"].ToString();
-                    cliente.Nome = reader["Nome"].ToString();
-                    cliente.Email = reader["Email"].ToString();
-                    cliente.Telefone = reader["Telefone"].ToString();
+                    Cliente cliente = ObterClienteReader(reader);
 
                     lista.Add(cliente);
 
                 }
             }
             return lista; 
+        }
+
+        private static Cliente ObterClienteReader(System.Data.SqlClient.SqlDataReader reader)
+        {
+            var cliente = new Cliente();
+            cliente.Id = reader["Id"].ToString();
+            cliente.Nome = reader["Nome"].ToString();
+            cliente.Email = reader["Email"].ToString();
+            cliente.Telefone = reader["Telefone"].ToString();
+            return cliente;
         }
     }
 }
