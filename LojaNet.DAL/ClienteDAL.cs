@@ -12,12 +12,17 @@ namespace LojaNet.DAL
     {
         public void Alterar(Cliente cliente)
         {
-            throw new NotImplementedException();
+            DbHelper.ExecuteNonQuery("ClienteAlterar",
+                "@Id", cliente.Id,
+                "@Nome", cliente.Nome,
+                "@Email", cliente.Email,
+                "@Telefone", cliente.Telefone
+                );
         }
 
         public void Excluir(string Id)
         {
-            throw new NotImplementedException();
+            DbHelper.ExecuteNonQuery("ClienteExcluir", "@Id",Id);
         }
 
         public void Incluir(Cliente cliente)
@@ -27,7 +32,6 @@ namespace LojaNet.DAL
                 "@Nome", cliente.Nome,
                 "@Email", cliente.Email,
                 "@Telefone", cliente.Telefone
-
                 );
         }
 
