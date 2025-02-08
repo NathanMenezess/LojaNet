@@ -34,7 +34,9 @@ namespace LojaNet.UI.Web.Controllers
         // GET: Cliente
         public ActionResult Index()
         {
-            return View();
+            var bll = new ClienteBLL();
+            var lista = bll.ObterTodos();
+            return View(lista);
         }
     }
 }
