@@ -1,7 +1,6 @@
 C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.Models\bin\Debug\netstandard1.4\LojaNet.Models.deps.json
 C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.Models\bin\Debug\netstandard1.4\LojaNet.Models.dll
 C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.Models\bin\Debug\netstandard1.4\LojaNet.Models.pdb
-C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.Models\obj\Debug\netstandard1.4\LojaNet.Models.csprojAssemblyReference.cache
 C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.Models\obj\Debug\netstandard1.4\LojaNet.Models.csproj.CoreCompileInputs.cache
 C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.Models\obj\Debug\netstandard1.4\LojaNet.Models.AssemblyInfo.cs
 C:\AulaCSharp\AulaCSharp02\LojaNet\LojaNet.Models\obj\Debug\netstandard1.4\LojaNet.Models.dll
